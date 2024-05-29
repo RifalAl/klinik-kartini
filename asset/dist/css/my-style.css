@@ -1,0 +1,31 @@
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px 7px;
+  margin-top: 1.5rem;
+}
+
+.page-item{
+  cursor: pointer;
+}
+
+
+.paginationjs-page{
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #dee8f7;
+  padding-top: 2.5px;
+  width: 26px;
+  height: 26px;
+  color: #bec8d7;
+}
+
+.page-item.active{
+  background-color: #2FB344;
+  color: white;
+  font-weight: 500;
+}
